@@ -3,4 +3,8 @@ class PagesController < ApplicationController
   def home
 
   end
+  #this method is for the about page
+  def about
+
+  end
 end

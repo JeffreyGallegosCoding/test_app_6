@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   #you want your root route or your main route to go to an intended controller
   #the #hello is the method that you want to handle the route from inside th controller
   root 'pages#home'
+  get 'about', to: 'pages#about'
 end
